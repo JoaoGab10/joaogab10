@@ -18,7 +18,7 @@ public class outros5 {
         System.out.println("Se voce engordar 15% seu peso sera " + peso );
 
         peso = (peso + (peso * 0.30));
-        System.out.println("E se voçe imagrecer 20% seu peso sera de " + peso);
+        System.out.println("E se voçe emagrecer 20% seu peso sera de " + peso);
     
     
     
