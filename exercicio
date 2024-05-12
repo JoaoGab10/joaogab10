@@ -1,27 +1,151 @@
-#Faça um programa que receba o peso de uma pessoa, calcule e mostre: •o novo peso se a pessoa engordar 15% sobre o peso digitado o novo peso se a pessoa emagrecer 20% sobre o peso digitado.
-
+/*Faça um programa que receba o peso de uma pessoa, calcule e mostre: 
+o novo peso se a pessoa engordar 15% sobre o peso digitado o novo peso se a pessoa emagrecer 20% sobre o peso digitado. /*
 
 import java.util.Scanner;
 
 public class outros5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-
         
         double peso;
         System.out.println("Digite Seu peso atual ");
         peso = sc.nextDouble();
-
 
         peso = (peso + (peso*0.15));        
         System.out.println("Se voce engordar 15% seu peso sera " + peso );
 
         peso = (peso + (peso * 0.30));
         System.out.println("E se voçe emagrecer 20% seu peso sera de " + peso);
-    
-    
-    
-    
+        
      }
     }
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/* Faça um algoritmo que calcule e mostre a área de um trapézio. Sabe-se que: A = (base maior + base menor)*altura)/2 */
+
+
+import java.util.Scanner;
+
+public class outros6 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+       double area;
+       double altura;
+       System.out.println("Digite a altura do seu trapezio ");
+       altura = sc.nextDouble();
+
+       double basemaior, basemenor;
+       System.out.println("Qual a area maior do seu trapezio ");
+       basemaior = sc.nextDouble();
+
+       System.out.println("Qual a area menor do seu trapezio");
+       basemenor =sc.nextDouble();
+
+       area = (basemaior + basemenor * altura) /2;
+       System.out.println("A area do seu trapezio é " + area);
+      
+    }
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*Faça um programa que calcule a área de um triângulo, considerando a fórmula AREA = (BASE * ALTURA) / 2. 
+Utilize as variáveis AREA, BASE e ALTURA e os operadores aritméticos de multiplicação e divisão. */
+
+import java.util.Scanner;
+
+public class outros1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double area, base, altura;
+
+        System.out.println("Digite a altura do triangulo: ");
+        altura = sc.nextDouble();
+
+        System.out.println("Digite a base do triangulo: ");
+        base = sc.nextDouble();
+
+        area = (base * altura) / 2;
+        System.out.println("A base do seu triangulo é " + area );
+
+    }
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Faça um programa que leia uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit. A fórmula de conversão é:
+F = (C * 9 / 5) + 32, na qual F é a temperatura em Fahrenheit e C é a temperatura em Celsius.
+
+import java.util.Scanner;
+
+public class outros2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+
+        double celsius;
+        double fahrenheit;
+        System.out.println("Digite a temperatura em graus: ");
+        celsius = sc.nextDouble();
+
+        fahrenheit = (celsius * 9 / 5) + 32;
+        System.out.println("A temperatura em Fahrenheit é " + fahrenheit); 
+
+    }
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*Faça um programa que calcule o índice de massa corpórea e imprima o resultado. Utilize a fórmula: IMC = PESO / (ALTURA * ALTURA).*/
+
+import java.util.Scanner;
+
+public class outros3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double corporea;
+        double peso;
+        double altura;
+
+        System.out.println("Digite o seu peso");
+         peso = sc.nextDouble();
+
+        System.out.println("Digite sua altura: ");
+         altura = sc.nextDouble();
+
+         corporea = peso / (altura * altura);
+
+         System.out.println("Sua massa córporea é " + corporea);
+
+    }
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*Um funcionário recebe um salário fixo, mais 4% de comissão sobre as vendas. 
+Faça um programa que receba o salário fixo de um funcionário e o valor de suas vendas, calcule e mostre a comissão e o salário final 
+do funcionário.*/
+
+import java.util.Scanner;
+
+public class outros4 {
+    public static void main(String[] args) {
+        Scanner  sc = new Scanner(System.in);
+
+        double comissao;
+        double salario = 1640;
+        System.out.println("Seu salario é " + salario);
+         
+        double vendas;
+        System.out.println("Digite quanto voce vendeu no mes ");
+        vendas = sc.nextDouble();
+
+       comissao = salario+(salario*(vendas*0.04));
+
+       System.out.println("Sua comissao é " + comissao);
+
+    }
+    
+}
