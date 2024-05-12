@@ -1,6 +1,6 @@
 # Olá, eu sou o Joao Gabriel 🤙
 
-Bem-vindo ao meu perfil do GitHub! 👋 Sou Joao Gabriel, atualmente cursando Desinvolvimento de Sistemas, sempre em busca de novos desafios
+Bem-vindo ao meu perfil do GitHub! 👋 Sou Joao Gabriel, atualmente cursando Desenvolvimento de Sistemas, sempre em busca de novos desafios
 
 
 
